@@ -23,27 +23,37 @@ Hướng dẫn Sử dụng & Điều khiển
 
 ## 🚀 2. Hướng dẫn Cài đặt & Chạy Chương trình
 
-###Cách 1: Tải trực tiếp file ZIP (Dành cho người dùng phổ thông)
+## 🚀 2. Hướng dẫn Cài đặt & Chạy Chương trình
+
+### Cách 1: Tải trực tiếp file ZIP (Dành cho người dùng phổ thông)
 1. Truy cập vào trang GitHub của dự án và chọn nút màu xanh **Code** -> Chọn **Download ZIP**.
 2. Giải nén file `.zip` vừa tải về trên máy tính.
 3. Mở thư mục vừa giải nén bằng **VS Code** (hoặc trình soạn thảo Python bất kỳ).
 4. Mở **Terminal** trong VS Code (phím tắt `Ctrl + ` `) và chạy lệnh cài đặt thư viện:
 ```text
-pip install -r requirements.txt 
-
-Khởi chạy game bằng lệnh: 
-python main.py
-
-###Cách 2: Sử dụng Git Clone (Dành cho lập trình viên)
-
-Mở Terminal / Command Prompt trên máy tính và gõ lệnh:
-git clone https://github.com/pylorazz/snake-game-mediapipe
- 
-Di chuyển vào thư mục dự án:
-cd snake-game-mediapipe
-
-Cài đặt các thư viện phụ thuộc:
 pip install -r requirements.txt
-
-Khởi chạy game bằng lệnh:
+```
+5. Khởi chạy game bằng lệnh:
+```text
 python main.py
+```
+
+---
+
+### Cách 2: Sử dụng Git Clone (Dành cho lập trình viên)
+1. Mở Terminal / Command Prompt trên máy tính và gõ lệnh:
+```text
+git clone https://github.com/pylorazz/snake-game-mediapipe
+```
+2. Di chuyển vào thư mục dự án:
+```text
+cd snake-game-mediapipe
+```
+3. Cài đặt các thư viện phụ thuộc:
+```text
+pip install -r requirements.txt
+```
+4. Khởi chạy game bằng lệnh:
+```text
+python main.py
+```
