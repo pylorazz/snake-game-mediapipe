@@ -4,12 +4,12 @@ Trò chơi Rắn săn mồi 2D được điều khiển trực tiếp bằng c�
 
 Hướng dẫn Sử dụng & Điều khiển
 1. Cách chơi:
-   - Đưa bàn tay lên trước Webcam, sử dụng Đầu ngón tay trỏ để điều khiển Đầu rắn di chuyển trên màn hình.
+   - Đưa bàn tay lên trước Webcam, sử dụng Đầu ngón trỏ để điều khiển Đầu rắn di chuyển trên màn hình.
    - Điều khiển đầu rắn chạm vào Quả táo đỏ để ăn mồi (điểm số tăng +1 và chiều dài rắn tăng thêm).
-   - Xử thua (Game Over): Khi đầu rắn đâm sâu vào các đốt thân phía sau cổ.
+   - Xử thua (Game Over): Khi đầu rắn đâm vào các đốt thân phía sau.
 2. Thao tác phím bấm:
-   - R: Chơi lại ván mới khi bị Game Over (Reset game).
-   - Q: Thoát chương trình.
+   - R: Chơi lại ván mới khi bị Game Over (Restart game).
+   - Q: Thoát chương trình (Quit).
 ---
 
 ## 🛠 1. Danh sách Thư viện & Yêu cầu Hệ thống
@@ -20,9 +20,6 @@ Hướng dẫn Sử dụng & Điều khiển
   - `numpy`: Ánh xạ vùng cảm ứng (Virtual Pad) và tính toán tọa độ làm mượt.
 
 ---
-
-## 🚀 2. Hướng dẫn Cài đặt & Chạy Chương trình
-
 ## 🚀 2. Hướng dẫn Cài đặt & Chạy Chương trình
 
 ### Cách 1: Tải trực tiếp file ZIP (Dành cho người dùng phổ thông)
